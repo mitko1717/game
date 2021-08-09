@@ -35,7 +35,6 @@ const Main = () => {
     } else if (inputValue === secretNumber) {
       setMessage("🎉 Correct Number!");
       setStatus(true);
-      setHighscore(score);
       setNum(secretNumber);
     }
   };
